@@ -120,8 +120,8 @@ systemctl reload ssh
 # FILL AND COPY SOURCE FILES
 #=================================================
 
-ynh_replace_string "{DOMAIN}" "$domain" ../sources/www/index.html
-ynh_replace_string "{USER}" "$user" ../sources/www/index.html
+ynh_replace_string "{DOMAIN}" "$domain" ../sources/www/index.php
+ynh_replace_string "{USER}" "$user" ../sources/www/index.php
 
 if [ $with_mysql -eq 1 ]; then
     # Store the database access

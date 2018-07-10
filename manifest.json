@@ -1,13 +1,13 @@
 {
-    "id": "whmcs0.2",
+    "id": "whmcs",
     "name": "WHMCS Package By -:- Miha",
     "packaging_format": 1,
     "description": {
         "en": "Custom WHMCS app with SFTP access",
-        "fr": "Application Web personnalisée avec accès SFTP"
+        "fr": "n/a"
     },
     "version": "1.2",
-    "url": "https://github.com/YunoHost-Apps/my_webapp_ynh",
+    "url": "https://github.com/H4M1/whcms_ynh",
     "license": "GPLv3",
     "maintainer": {
         "name": "Mihajlo Pavlovic",
